@@ -32,16 +32,20 @@ body{
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    margin-left: 250px;
 
 }
-
+.collapse {
+    justify-content: flex-end;
+    margin-right: 250px;
+}
 
 .navbar,
 .navbar-expand-lg bg-light{
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    padding: 0;
+    padding: 0px;
     z-index: 99;
     width: 100%;
     border-bottom: 2px solid #cccccc;
@@ -64,7 +68,7 @@ p {
 
 .card-img, 
 .card-img-overlay, 
-.card{
+.card {
     float: left;
     width: 274px;
     overflow: auto;
